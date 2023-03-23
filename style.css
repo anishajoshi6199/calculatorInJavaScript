@@ -1,0 +1,175 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.container {
+  margin: auto;
+  margin-top: 6rem;
+  width: 25%;
+  padding: 10px;
+  border: 2px solid black;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
+  box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
+  height: 450px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.header {
+  background-color: #09b311;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.result {
+  font-size: 24px;
+  padding: 24px 5px;
+  font-weight: 700;
+  text-align: right;
+  width: 96%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0.7rem;
+  background-color: #f8f8f8;
+}
+
+.firstRow {
+  display: inline-block;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.secondRow {
+  display: inline-block;
+  width: 100%;
+}
+
+.thirdRow {
+  display: inline-block;
+  width: 100%;
+}
+
+.forthRow {
+  display: inline-block;
+  width: 100%;
+}
+
+.conflict {
+  display: inline-block;
+  width: 100%;
+}
+
+.globle {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  float: left;
+  border-radius: 6px;
+  width: 23.5%;
+  margin: 0 2px;
+  /*border: 1px solid #000;*/
+}
+
+.globle:hover {
+  background-color: #585858;
+  color: #fff;
+}
+
+.conflict > .right {
+  position: relative;
+  width: 24%;
+  float: left;
+}
+
+.big:hover {
+  background-color: #585858;
+  color: #fff;
+}
+
+.conflict > .left {
+  position: relative;
+  float: left;
+  width: 74%;
+}
+
+.big {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  float: left;
+  width: 64.5%;
+  margin: 0 2px;
+}
+
+.small {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  float: left;
+  width: 31.5%;
+  margin: 0 2px;
+}
+
+.small:hover {
+  background-color: #585858;
+  color: #fff;
+}
+
+.plus {
+  height: 75px;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.plus:hover {
+  background-color: #585858;
+  color: #fff;
+}
+
+.Del {
+  margin-top: 4px;
+  background-color: #ff055d;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  width: 5rem;
+}
+
+.Del:hover {
+  background-color: #c00144;
+  color: #fff;
+}
+
+.Ans:hover {
+  background-color: #06790c;
+  color: #fff;
+}
+
+.Ans {
+  margin-top: 4px;
+  background-color: #09b311;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+  color: #fff;
+  width: 10rem;
+  font-weight: 900;
+}

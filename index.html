@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcalator</title>
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Calculate</div>
+      <form name="calculator">
+      <input type="text" id="result" class="result" name="result" >
+
+      <!-- firstButtonRow -->
+      <div class="firstRow">
+        <input type="button" value="&radic;" class="globle" />
+        <input type="button" value="(" class="globle" onclick="calculator.result.value += '(' ">
+        <input type="button" value=")" class="globle"  onclick="calculator.result.value += ')' "/>
+        <input type="button" value="%" class="globle"  onclick="calculator.result.value += '%' "/>
+      </div>
+
+      <!--  secondButtonRow-->
+      <div class="secondRow">
+        <input type="button" value="7" class="globle"   onclick="calculator.result.value += '7' "/>
+        <input type="button" value="8" class="globle"   onclick="calculator.result.value += '8' " />
+        <input type="button" value="9" class="globle"   onclick="calculator.result.value += '9' " />
+        <input type="button" value="/" class="globle"   onclick="calculator.result.value += '/' " />
+      </div>
+
+      <!-- thirdButtonRow -->
+      <div class="thirdRow">
+        <input type="button" value="4" class="globle"   onclick="calculator.result.value += '4' "/>
+        <input type="button" value="5" class="globle"   onclick="calculator.result.value += '5' "/>
+        <input type="button" value="6" class="globle"   onclick="calculator.result.value += '6' "/>
+        <input type="button" value="X" class="globle"   onclick="calculator.result.value += '*' "/>
+      </div>
+
+      <!-- forthButtonRow -->
+      <div class="forthRow">
+        <input type="button" value="1" class="globle"  onclick="calculator.result.value += '1' "/>
+        <input type="button" value="2" class="globle"   onclick="calculator.result.value += '2' "/>
+        <input type="button" value="3" class="globle"   onclick="calculator.result.value += '3' "/>
+        <input type="button" value="-" class="globle"   onclick="calculator.result.value += '-' "/>
+      </div>
+
+    <!-- *** -->
+    <div class="conflict">
+      <div class="left">
+        <input type="button" value="0" class="big globle"   onclick="calculator.result.value += '0' "/>
+        <input type="button" value="." class="small globle"   onclick="calculator.result.value += '.' "/>
+        <input type="button" value="Del" id="delBtn" class="Del globle"   onclick="clearInput()"/>
+        <input type="button" value="=" class="Ans globle"   onclick="calculator.result.value = eval(calculator.result.value)"/>
+      </div>
+
+      <!-- *** -->
+      <div class="right">
+        <input type="button" value="+" class="plus globle"   onclick="calculator.result.value += '+' "/>
+      </form>
+      </div>
+    </div>
+    <!-- javaScript-->
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
+
+
+
